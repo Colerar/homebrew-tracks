@@ -10,7 +10,8 @@ source=("https://github.com/Colerar/Tracks/releases/download/v${pkgver}/tracks-$
 sha256sums=('2a6c98f6759915b0a5e5e2d6d7c5df04abb849987239a62d66c5978f8eddb591')
 
 package() {
-  cd "$srcdir/${_tarballname}"
+  cd "$srcdir/$pkgname-$pkgver"
+  rm bin/tracks.bat
   mkdir -p "$pkgdir/usr"
   cp -a . "$pkgdir/usr"
 }
