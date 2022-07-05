@@ -7,10 +7,10 @@ url='https://github.com/Colerar/Tracks'
 license=('MIT')
 depends=("java-runtime")
 source=("https://github.com/Colerar/Tracks/releases/download/v${pkgver}/tracks-${pkgver}.zip")
-sha256sums=('37bde0709b56b99497c3b57a0e89a78df97d2b4db4a56cd80a839943dd1739a6')
+sha256sums=('2a6c98f6759915b0a5e5e2d6d7c5df04abb849987239a62d66c5978f8eddb591')
 
 package() {
   cd "$srcdir/${_tarballname}"
-  install -dm 755 "${pkgdir}/"
-  cp -a . "${pkgdir}/"
+  mkdir -p "$pkgdir/usr"
+  cp -a . "$pkgdir/usr"
 }
