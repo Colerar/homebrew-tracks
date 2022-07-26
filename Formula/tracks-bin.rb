@@ -6,9 +6,6 @@ class TracksBin < Formula
   license "MIT"
   head "https://github.com/Colerar/Tracks.git"
 
-  depends_on "gradle" => :build
-  depends_on "openjdk" => :build
-
   conflicts_with "tracks"
 
   def install
