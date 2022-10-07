@@ -1,8 +1,8 @@
 class TracksBin < Formula
   desc "Bilibili Video Downloader Written with Kotlin"
   homepage "https://github.com/Colerar/Tracks"
-  url "https://github.com/Colerar/Tracks/releases/download/v1.3.0/tracks-1.3.0.tar"
-  sha256 "a138b2678365b3f653d9e2c424e6a28002ab07561a9cb12b699899ddaf52f00b"
+  url "https://github.com/Colerar/Tracks/releases/download/v1.4.0/tracks-1.4.0.tar"
+  sha256 "e190fdad8387097861f4585d5491f522cc6e01af0998fdeb48eeb99450335154"
   license "MIT"
   head "https://github.com/Colerar/Tracks.git"
 
